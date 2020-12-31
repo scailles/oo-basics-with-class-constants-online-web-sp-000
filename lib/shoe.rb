@@ -19,6 +19,8 @@ class Shoe
     @brand = brand
     if BRANDS.include?(brand)=false
     BRANDS << brand
+  else nil
+  end
   end
 
 end
